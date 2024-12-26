@@ -25,3 +25,24 @@ body {
     text-wrap: balance;
   }
 }
+.main_div{
+  /* border: 1px solid rgb(243, 13, 13); */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+
+}
+.box{
+  /* border: 1px solid pink; */
+  height: 450px;
+
+}
+.imag{
+  width: 350px;
+  height: 250px;
+  /* border-radius: 50%; */
+  overflow: hidden;
+}
